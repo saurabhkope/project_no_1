@@ -1,5 +1,8 @@
 
 .container {
+    width: 250px;
+    margin: auto;
+    margin-top: 200px;
     text-align: center;
     border: 5px solid;
     padding: 10px ;
@@ -21,6 +24,7 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 .row {
