@@ -1,0 +1,36 @@
+
+.container {
+    text-align: center;
+    border: 5px solid;
+    padding: 10px ;
+    /* margin: 100px 500px; */
+    background-color: beige;
+    
+} 
+
+.btn {
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+input {
+    padding: 30px 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: red;
+    margin: 0;
+}
