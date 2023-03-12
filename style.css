@@ -7,7 +7,8 @@
     border: 5px solid;
     padding: 10px ;
     /* margin: 100px 500px; */
-    background-color: beige;
+    background-color: rgb(255, 255, 195);
+    border: 15px solid rgb(68, 68, 68);
     
 } 
 
@@ -46,5 +47,9 @@ input {
     background-color: rgb(91, 91, 250);
 }
 #ans{
-    background-color: rgb(84, 84, 84);
+    background-color: rgb(255, 194, 194);
+}
+
+.btn-color{
+    background-color: #999999;
 }
