@@ -38,3 +38,13 @@ input {
     border-color: red;
     margin: 0;
 }
+
+#clear{
+    background-color: aqua;
+}
+#back{
+    background-color: rgb(91, 91, 250);
+}
+#ans{
+    background-color: rgb(84, 84, 84);
+}
