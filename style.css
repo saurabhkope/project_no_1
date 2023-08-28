@@ -3,21 +3,23 @@
     margin: auto;
     margin-top: 100px;
     text-align: center;
-    border: 5px solid;
+    /* border: 5px solid; */
     padding: 10px;
     /* margin: 100px 500px; */
-    background-color: rgb(255, 255, 195);
-    border: 25px solid rgb(68, 68, 68);
-    box-shadow: 10px 0 10px -5px rgba(0, 0, 0, 0.5);
+     background-color: white;
+    /* border: 25px solid rgb(68, 68, 68); */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
 }
 
 .btn {
-    border: 2px solid;
-    border-radius: 15px;
+    
+    border-radius: 50px;
     padding: 20px;
+    margin: 1px 4px 0px 0px;
     cursor: pointer;
-
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
@@ -36,12 +38,12 @@ body {
 
 input {
     padding: 30px 8px;
-    border: 2px solid;
-    border-radius: 10px;
-    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
     margin: 0;
     font-size: 16px;
     font-weight: bold;
+    border: 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 h1 {
@@ -55,7 +57,7 @@ span {
 }
 
 .btn:hover {
-    background-color: #555;
+    background-color: #cfcece;
 }
 
 #clear {
@@ -71,5 +73,6 @@ span {
 }
 
 .btn-color {
-    background-color: #999999;
+   background-color: rgb(247, 216, 216);
+    
 }
