@@ -7,10 +7,10 @@ buttons.forEach(button => {
     button.addEventListener("click", () => {
         const buttonText = button.innerText;
         switch (buttonText) {
-            case "clear":
+            case "C":
                 inputField.value = "";
                 break;
-            case "back":
+            case "DEL":
                 inputField.value = inputField.value.slice(0, -1);
                 break;
             case "=":
